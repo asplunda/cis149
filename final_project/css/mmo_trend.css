@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	width: 1280px;
+	background-color: #EDEDED;
+	color: black;
+}
+
+header {
+	width: 1280px;
+	height: 150px;
+	background: linear-gradient(to right, #092A75, #142A5E);
+}
+
+#logo {
+	position: absolute;
+	top: 0px;
+}
+
+.small  {
+	text-align: right;
+	margin-right: 10px;
+	color: #EDEDED
+}
+
+.small a {
+	color: #EDEDED;
+}
+
+.small a:hover {
+	color: #56AEB3;
+}
+
+#bread {
+	font-size: 12pt;
+	position: absolute;
+	left: 162px;
+	top: 100px;
+}
+
+#bread a:hover {
+	color: #56AEB3;
+}
+
+#primary a {
+	color: #EDEDED;
+	text-decoration: none;
+	padding: 2px;
+	margin: 2px;
+	font-family: sans-serif;
+}
+
+#primary a:hover{
+	background: #406ED6;
+	border: 2px solid #142A5E;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#primary {
+	font-size: 24pt;
+	position: relative;
+	left: 500px;
+	top: 50px; 
+}
+
+#left {
+	width: 160px;
+	background: linear-gradient(#56AEB3, #EDEDED);
+	height: 700px;
+	float: left;
+}
+
+#left a {
+	color: #142A5E;
+}
+
+#left a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type:none;
+}
+
+section nav {
+	font-size: 18pt;
+	margin-left: 30px;
+	position: relative;
+	top: 50px;
+}
+
+#main {
+	width: 800px;
+	position: relative;
+	left: 50px;
+}
+
+#main p {
+	margin-bottom: 10px; 
+}
+
+#main a:hover {
+	color: #56AEB3;
+}
+
+img {
+	float: right;
+	position: relative;
+	top: 175px;
+}
+
+#gal {
+	position: relative;
+	right: 525px;
+	bottom: 75px;
+}
+
+.next {
+	font-size: 24pt;
+	position: relative;
+	left: 600px;
+	top: 150px;
+}
+
+.prev {
+	font-size: 24pt;
+	position: absolute;
+	top: 265px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 36pt;
+	margin-top: 50px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h2 {
+	text-align: center;
+	font-size: 28pt;
+	margin-top: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+p {
+	font-size: 16pt;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 50px;
+}
+
+.desc {
+	font-size: 12pt;
+}
+
+.sub {
+	position: relative;
+	left: 20px;
+}
+
+footer {
+	width: 1020px;
+	height: 30px;
+	background-color: #EDEDED; 
+	text-align: center;
+	position: relative;
+	left: 160px;
+	bottom: 30px; 
+	clear: both;
+}
+
+footer a:hover {
+	color: #56AEB3;
+}
+
+input, select {
+	padding: 2px;
+	margin: 5px;
+}
+
+input:focus{
+	background-color: #ffffff;
+	border-color: blue;
+}
+
+legend{
+	font-size: 14pt;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+label{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+fieldset {
+	border: 1px solid black;
+}
+
+fieldset:first-child label{
+	display: inline-block;
+	margin-right: 10px;
+	text-align: right;
+	width: 100px;
+}
